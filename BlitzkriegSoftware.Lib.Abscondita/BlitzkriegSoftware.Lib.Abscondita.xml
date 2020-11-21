@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>BlitzkriegSoftware.Lib.Abscondita</name>
+    </assembly>
+    <members>
+        <member name="T:BlitzkriegSoftware.Lib.Abscondita.Numerus">
+            <summary>
+            Library: Hider for Number, Integer and Long
+            </summary>
+        </member>
+        <member name="P:BlitzkriegSoftware.Lib.Abscondita.Numerus.Seed">
+            <summary>
+            Tunable: Seed
+            </summary>
+        </member>
+        <member name="M:BlitzkriegSoftware.Lib.Abscondita.Numerus.Unhide(System.String)">
+            <summary>
+            Unhide the string to a number 
+            </summary>
+            <param name="hidden">hide-string</param>
+            <returns>value</returns>
+        </member>
+        <member name="M:BlitzkriegSoftware.Lib.Abscondita.Numerus.Hide(System.Int64)">
+            <summary>
+            long to hide-string
+            </summary>
+            <param name="value">long</param>
+            <returns>hide-string</returns>
+        </member>
+    </members>
+</doc>
