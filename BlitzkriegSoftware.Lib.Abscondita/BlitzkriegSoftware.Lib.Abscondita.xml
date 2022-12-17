@@ -17,6 +17,7 @@
         <member name="M:BlitzkriegSoftware.Lib.Abscondita.Numerus.Unhide(System.String)">
             <summary>
             Unhide the string to a number 
+            string to long 
             </summary>
             <param name="hidden">hide-string</param>
             <returns>value</returns>

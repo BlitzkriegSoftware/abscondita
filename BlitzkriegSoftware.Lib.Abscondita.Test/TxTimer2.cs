@@ -1,8 +1,5 @@
 ﻿using System;
-<<<<<<< HEAD
 using System.Diagnostics.CodeAnalysis;
-=======
->>>>>>> c57d19b371ef9151652d6c2aae993e29a946105c
 
 namespace BlitzkriegSoftware.Lib.Abscondita.Test
 {
@@ -21,10 +18,7 @@ namespace BlitzkriegSoftware.Lib.Abscondita.Test
     /// </code>
     /// </example>
     /// </summary>
-<<<<<<< HEAD
     [ExcludeFromCodeCoverage]
-=======
->>>>>>> c57d19b371ef9151652d6c2aae993e29a946105c
     public class TxTimer2 : IDisposable
     {
         /// <summary>

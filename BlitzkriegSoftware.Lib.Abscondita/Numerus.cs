@@ -8,16 +8,11 @@ namespace BlitzkriegSoftware.Lib.Abscondita
     /// </summary>
     public static class Numerus
     {
-<<<<<<< HEAD
         /// <summary>
         /// Tunable: Seed
         /// </summary>
         public static long Seed { get; set; } = 423276432;
 
-=======
-        // Tunable: Seed
-        private const long Seed = 423276432;
->>>>>>> c57d19b371ef9151652d6c2aae993e29a946105c
         // Tunable: Pad Size
         private const int PadTo = 20;
 
@@ -63,11 +58,8 @@ namespace BlitzkriegSoftware.Lib.Abscondita
         }
 
         /// <summary>
-<<<<<<< HEAD
         /// Unhide the string to a number 
-=======
         /// string to long 
->>>>>>> c57d19b371ef9151652d6c2aae993e29a946105c
         /// </summary>
         /// <param name="hidden">hide-string</param>
         /// <returns>value</returns>
@@ -79,12 +71,7 @@ namespace BlitzkriegSoftware.Lib.Abscondita
                 var left  = hidden.Substring(0, PadTo / 2);
                 var right = hidden.Substring(hidden.Length - (PadTo / 2));
                 var text = hidden.Replace(right,"").Replace(left,"");
-<<<<<<< HEAD
                 if(!long.TryParse(text, out value)) {
-=======
-                if(!long.TryParse(text, out value))
-                {
->>>>>>> c57d19b371ef9151652d6c2aae993e29a946105c
                     value = 0;
                 }
 
